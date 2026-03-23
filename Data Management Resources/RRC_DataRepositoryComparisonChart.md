@@ -5,7 +5,7 @@ The Rice Rivers Center (RRC) is working to build infrastructure that illuminates
 field station activities, publications, and data sets. Often times, these components of a research project are
 tracked and managed separately and the connecting link between them is lost over time. At Rice, we are
 working to implement new data management protocols like project registration, Data Management Plans, and
-data archiving requirements to track these project components at the field station-level. 
+data archiving requirements to track these project components and provide visibility at the field station-level. 
 
 One of the major drivers for implementing these new data management protocols is to ensure that RRC-affiliated
 data are [FAIR](https://www.go-fair.org/fair-principles/). FAIR data are **F**indable, **A**ccessible, **I**nteroperable, 
