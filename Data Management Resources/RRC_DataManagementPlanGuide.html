@@ -353,7 +353,7 @@ display: none;
 
 
 <div id="data-management-plan-dmp-guide" class="section level1">
-<h1>Data Management Plan (DMP) Guide</h1>
+<h1><strong>Data Management Plan (DMP) Guide</strong></h1>
 <div id="about-this-document" class="section level3">
 <h3>About this document</h3>
 <p>The Rice Rivers Center (RRC) is working to build infrastructure that
@@ -383,33 +383,42 @@ encouraged to contact the <a href="https://ricerivers.vcu.edu/directory/lauren-w
 Manager</a> directly with feedback, questions, and/or concerns.</p>
 </div>
 <div id="data-management-plan-template" class="section level2">
-<h2>Data Management Plan Template</h2>
-<p>The sections below breakdown the DMP topics into smaller questions.
-Pay special attention to questions ==highlighted in yellow== as these
-are often mirrored with certain metadata requirements.</p>
+<h2><strong>Data Management Plan Template</strong></h2>
+<p>The sections below breakdown the DMP topics into smaller
+questions.</p>
 <div id="data-and-materials-produced" class="section level3">
-<h3>Data and Materials Produced</h3>
+<h3>1. Data and Materials Produced</h3>
 <p>Describe the types of data, physical samples or collections,
 software, curriculum materials, and other materials to be produced in
 the course of the project.</p>
 <p><strong>Guidance:</strong></p>
 <ul>
-<li>What data will be generated in the research? If you know how your
-data tables will be set up, describe the parameters that will be
-recorded.</li>
+<li>Describe the data that will be generated from the research. If you
+know how your data tables will be set up, describe the parameters that
+will be recorded.
+<ul>
+<li>Include full names of variables, variable definitions, units of
+measurement, codes used for missing data, and important contextual
+information like date and place of collection.</li>
+</ul></li>
 <li>What types of data will you collect? (e.g. tabular data, survey
 data, software, audio data, visual data, physical samples)</li>
 <li>How will you capture or create the data? (e.g. manual samples, data
 loggers, model simulation, etc.)</li>
 <li>If you will be using existing data, state this and include how you
 will obtain it.</li>
-<li>How will the data be processed?</li>
-<li>What quality assurance and quality control measures will you
-employ?</li>
+<li>How will the data be processed? (e.g. GIS software, programming
+languages used, etc.)</li>
+<li>What quality assurance and quality control measures will you employ?
+<ul>
+<li>Check out the <a href="https://edirepository.org/resources/cleaning-data-and-quality-control">Cleaning
+Data and Quality Control Resource</a> from EDI, which covers QAQC
+processes including value checking and data flagging.</li>
+</ul></li>
 </ul>
 </div>
 <div id="standards-formats-and-metadata" class="section level3">
-<h3>Standards, Formats, and Metadata</h3>
+<h3>2. Standards, Formats, and Metadata</h3>
 <p>Describe the standards to be used for all the data types anticipated,
 including data or file format and metadata.</p>
 <p><strong>Guidance:</strong></p>
@@ -417,25 +426,41 @@ including data or file format and metadata.</p>
 <li>Which file formats will you use for you data and why? (e.g. .csv,
 .txt, .tif)
 <ul>
-<li>Tip: Using open formats ensures the long-term usability of data and
-are recommended for sharing and archiving.</li>
+<li>Using open formats ensures the long-term usability of data and are
+recommended for sharing and archiving.</li>
 </ul></li>
 <li>What metadata standards will you use and why? (e.g., Dublin Core,
 Ecological Metadata Language, etc.)
 <ul>
-<li>Tip: For a full list of metadata standards, check out the <a href="https://rdamsc.bath.ac.uk/">Metadata Standards Catalog</a>.</li>
-<li>Tip: See if your selected data repository requires a specific
-metadata standard for depositing your data.</li>
+<li>For a full list of metadata standards, check out the <a href="https://rdamsc.bath.ac.uk/">Metadata Standards Catalog</a>.</li>
+<li>Check if your selected data repository requires a specific metadata
+standard for depositing your data.</li>
 </ul></li>
 <li>What contextual details should you include in your metadata to make
 it meaningful?</li>
 <li>What file naming conventions will you use to manage your data and
-folders?</li>
-<li>How do you intend to manage multiple versions of your files?</li>
+folders?
+<ul>
+<li>Names of files and variables should be constructed from entirely
+alphanumerics and underscores for the sake of machine readability.
+Spaces and symbols can be inconsistently represented across
+computational applications. (Source: <a href="https://edirepository.org/resources/cleaning-data-and-quality-control">EDI</a>)</li>
+<li>Check out these resources: <a href="https://authors.library.caltech.edu/records/mmnpf-cez11">File
+Naming Convention Worksheet</a> and <a href="https://guides.library.vcu.edu/data/organize">VCU Organizing and
+Documenting your Data</a></li>
+</ul></li>
+<li>How do you intend to manage multiple versions of your files?
+<ul>
+<li>Track software changes using GitHub.</li>
+<li>Utilize Google’s <a href="https://support.google.com/drive/answer/2409045?hl=en&amp;visit_id=639099575811208680-617229695&amp;rd=1">versioning
+for non-native files</a>. Make sure you mark “<a href="https://instructionaldesignthatworks.com/2023/08/21/manage-file-versions-in-google-drive/">Keep
+Forever</a>” on your file’s previous versions so that Google does not
+delete them.</li>
+</ul></li>
 </ul>
 </div>
 <div id="roles-and-responsibilities" class="section level3">
-<h3>Roles and Responsibilities</h3>
+<h3>3. Roles and Responsibilities</h3>
 <p>Describe the roles and responsibilities of all parties with respect
 to the management of the data.</p>
 <p><strong>Guidance:</strong></p>
@@ -449,18 +474,9 @@ personnel change occur?</li>
 <li>Is any training required to complete specific data collection,
 analysis, or management tasks?</li>
 </ul>
-<p><strong>Example Text:</strong></p>
-<ul>
-<li>Monitoring of and compliance with this Data Management Plan will be
-the responsibility of the project’s Principal Investigator. The plan
-will be implemented and managed by staff working under the direction of
-the PI.</li>
-<li>Development of metadata in Ecological Metadata Language will be
-completed by X in collaboration with the RRC Data Manager.</li>
-</ul>
 </div>
 <div id="policies-for-data-sharing-and-public-access" class="section level3">
-<h3>Policies for Data Sharing and Public Access</h3>
+<h3>4. Policies for Data Sharing and Public Access</h3>
 <p>Describe the policies for data sharing, public access, and re-use,
 including re-distribution by others and the production of derivatives.
 Where appropriate, include provisions for protection of privacy,
@@ -470,35 +486,80 @@ rights.</p>
 <ul>
 <li>How will you make the data available?</li>
 <li>When will you make the data available?</li>
-<li>What is the process for gaining access to the data? Will this
-process change at certain checkpoints in the project?</li>
 <li>How long will the original data creator retain the right to use the
-data before making them publicly available?</li>
+data before making them publicly available?
+<ul>
+<li>Currently, RRC is encouraging researchers/data creators to publish
+data within a year of relevant publications.</li>
+</ul></li>
 <li>Are there ethical and privacy issues? Will any permission
-restrictions need to be placed on the data?</li>
-<li>Who is likely to be interested in the data?</li>
-<li>What are the intended or foreseeable uses of the data?</li>
+restrictions need to be placed on the data?
+<ul>
+<li>Review VCU’s <a href="https://itgovernance.vcu.edu/security/">Data
+Classification Standard Policy</a> to evaluate whether your data is
+Category I (Confidential and Regulated), Category II (Sensitive), or
+Category III (Public). Category III data can be made public without
+prior approval.</li>
+</ul></li>
+<li>Who is likely to be interested in the data? (e.g., researchers,
+educators, governmental organizations, community groups, etc.)</li>
+<li>What are the intended or foreseeable uses of the data? (e.g.,
+research, applications, educational material, etc.)</li>
+<li>How do you wish to be acknowledged if your data is reused in the
+future?
+<ul>
+<li>What license will the data be released under? Check out EDI’s <a href="https://edirepository.org/resources/licensing-data">Licensing Data
+Guide</a>.</li>
+</ul></li>
 </ul>
 </div>
 <div id="archiving-storage-and-preservation" class="section level3">
-<h3>Archiving, Storage, and Preservation</h3>
+<h3>5. Archiving, Storage, and Preservation</h3>
 <p>Describe plans for archiving data, metadata, samples, software, and
 other research products. Consider which data will be deposited for
 long-term access and where.</p>
 <p><strong>Guidance:</strong></p>
 <ul>
 <li>Which archive, repository, or database have you identified as a
-place to deposit data?</li>
-<li>Who is the long-term data owner?</li>
+place to deposit data?
+<ul>
+<li>Check out the <a href="https://laurenkwick.github.io/RRC-Data-Management-Policy/Data%20Management%20Resources/RRC_DataRepositoryComparisonChart.html">RRC
+Data Repository Comparison Chart</a> and and <a href="https://guides.library.vcu.edu/data/sharing">VCU Research Data
+Management Guidelines</a> for help with making this decision.</li>
+</ul></li>
+<li>Who is the long-term data owner?
+<ul>
+<li>In other words, once the data is published who should be the point
+of contact for future questions about the data set.</li>
+</ul></li>
 <li>What procedures or requirements does your intended long-term
-repository have in place for preservation and backup?</li>
+repository have in place for preservation and backup?
+<ul>
+<li>Most repositories outline their preservation, backup, and succession
+plans in their documentation. Examples: <a href="https://info.figshare.com/user-guide/how-is-my-data-stored-is-it-secure/">figshare
+data storage</a> and <a href="https://edirepository.org/about/data-sustainability">EDI data
+preservation</a>.</li>
+</ul></li>
 <li>Which data will be preserved for the long-term?</li>
 <li>What transformations will be necessary to prepare data for
 preservation and sharing?</li>
 <li>What metadata and/or documentation will be submitted alongside the
-data in order to make the data reusable?</li>
+data in order to make the data reusable?
+<ul>
+<li>Review metadata requirements of your selected repository as well as
+<a href="https://www.go-fair.org/fair-principles/">FAIR data
+standards</a> to ensure your published data will be reusable.</li>
+</ul></li>
 </ul>
 </div>
+</div>
+<div id="acknowledgements" class="section level2">
+<h2><strong>Acknowledgements</strong></h2>
+<p>This document references content from VCU CHS’ <a href="https://intranet.chs.vcu.edu/media/chs-intranet/sponsored-programs/documents/DataManagementPlanGuidanceandTemplate_accessible.docx">Data
+Management Plan Guidelines and Templates</a>, and NC State’s <a href="https://www.lib.ncsu.edu/do/data-management/elements-of-a-dmp#TypesOfData">Drafting
+Your DMP Guide</a>. Additional resources from <a href="https://www.go-fair.org/">GO FAIR</a>, the <a href="https://edirepository.org/">Environmental Data Initiative</a>, <a href="https://figshare.com/">Figshare</a>, <a href="https://www.library.vcu.edu/">VCU Library</a>, <a href="https://www.rd-alliance.org/">Research Data Alliance</a>, and <a href="https://www.caltech.edu/">California Institute of Technology</a>
+are noted throughout the document with direct references to their
+content.</p>
 </div>
 </div>
 

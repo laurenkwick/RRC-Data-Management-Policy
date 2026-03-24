@@ -1,4 +1,4 @@
-# Data Repository Comparison Chart
+# **Data Repository Comparison Chart**
 
 ### About this document
 The Rice Rivers Center (RRC) is working to build infrastructure that illuminates the relationship between 
@@ -19,7 +19,7 @@ As with the other data management protocols that are being rolled out, we welcom
 related to this document. You are encouraged to contact the [RRC Data Manager](https://ricerivers.vcu.edu/directory/lauren-wick.html)
 directly with feedback, questions, and/or concerns. 
 
-### Where can I deposit my research data products?
+## **Where can I deposit my research data products?**
 You have the option to deposit data to various research data repositories for long term preservation and 
 discoverability, ranging from broad research domains to specific niches. RRC recommends that you consider
 the different options for depositing your data early on in your project, ideally when you are 
@@ -41,7 +41,7 @@ research data repositories across various disciplines. To explore data repositor
 | [PANGAEA](https://www.pangaea.de/) | Required fields: title, author(s), abstract, license, and parameters. | Georeferenced data from earth system research. | Focus on tabular data. Data should be formatted as TAB-delimited text files in UTF-8 encoding or open spreadsheet file formats (MS Excel). | Individual files must be less than 15GB. Limit of 20 files per submission. | Free but they accept a contribution for projects with funding for publication costs. |
 
 
-### Metadata standards and FAIR data
+## **Metadata standards and FAIR data**
 
 Metadata standards often drive the query logic behind these data repositories. It's important to consider
 this when you are choosing your data repository. Think about how different requirements might make it easier, 
